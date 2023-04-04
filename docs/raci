@@ -2,16 +2,16 @@
 <rdf:RDF
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="raci:Informed">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Role"/>
-  </rdf:Description>
   <rdf:Description rdf:about="raci:Consulted">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Role"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="raci:Informed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="raci:Responsible">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Role"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
   <rdf:Description rdf:about="raci:Accountable">
-    <rdf:type rdf:resource="http://www.w3.org/ns/prov#Role"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
   </rdf:Description>
 </rdf:RDF>
